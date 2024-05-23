@@ -1,13 +1,13 @@
-# MedSymphony Full Stack Microservices: Overview
+# ClinicWave Full Stack Microservices: Overview
 
 ## Overview
 
-This session focuses on developing a cloud-native application using Spring Boot microservices, container management, and DevOps CI/CD processes. The application domain is a hospital administration system called MedSymphony.
+This session focuses on developing a cloud-native application using Spring Boot microservices, container management, and DevOps CI/CD processes. The application domain is a hospital administration system called ClinicWave.
 
 ## Project Overview
 
 - **Domain**: Healthcare (Hospital Administration System)
-- **Project Name**: MedSymphony
+- **Project Name**: ClinicWave
 - **Deployment**: Heroku, Google Cloud Platform (GCP), AWS
 
 ## Application Features
