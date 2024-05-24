@@ -39,7 +39,7 @@
 ## Logging, Exception Handling, and Integration Testing
 - Implement logging using SLF4J with TCP Socket Appender across all layers.
 - Implement global exception handling in the controller layer.
-- Perform integration testing using tools like REST Assured, RestTemplate, or WebClient.
+- Perform integration testing using tools like TestContainers, REST Assured, RestTemplate, or WebClient.
 
 ## Pushing Code to Source Repository
 - Push the entire codebase to the source code repository (e.g., GitHub).

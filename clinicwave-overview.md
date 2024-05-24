@@ -45,6 +45,7 @@ This session focuses on developing a cloud-native application using Spring Boot 
 - **Testing**:
   - Unit Testing: JUnit 5.x
   - Mocking: Mockito
+  - Integration Testing: TestContainers, REST Assured, RestTemplate, or WebClient.
 - **Logging**: SLF4J with TCP Socket Appender (for ELK stack integration)
 - **Code Analysis**: PMD, Emma, SonarQube
 
