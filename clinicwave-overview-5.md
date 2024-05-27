@@ -22,7 +22,7 @@
   - Self-registration users can only view their profile after logging in.
 - `Add user`:
   - Users will be added by the administrator or super administrator.
-  - The add user flow will involve the `Document Service` and `Notification Service`.
+  - The add user flow will involve the `Storage Service` and `Notification Service`.
 
 #### Notification Service
 
@@ -31,9 +31,9 @@
 - Email notifications will be sent for user registration and password change.
 - SMS notifications will be sent for appointment confirmations and payments.
 
-#### Document Service
+#### Storage Service
 
-- The `Document Service` will store documents (e.g., certificates, PDFs) in a `NoSQL database (MongoDB)`.
+- The `Storage Service` will store documents (e.g., certificates, PDFs) in a `NoSQL database (MongoDB)`.
 - It will be called during the add user flow to store user documents.
 
 #### User Verification Process
