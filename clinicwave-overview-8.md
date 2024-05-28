@@ -28,7 +28,7 @@
 ### Challenges and Patterns in DDD
 - `Complex relationships and data dependencies between subdomains can pose challenges during implementation`.
 - `When migrating from a monolithic architecture (brownfield), decomposing existing relationships into Bounded Contexts can be complex`.
-- Patterns like the `Triangular Pattern` can help with gradual decomposition of monolithic applications into microservices.
+- Patterns like the `Strangler Pattern` can help with gradual decomposition of monolithic applications into microservices.
 
 ### Next Steps
 - Start coding and implementing DDD.
