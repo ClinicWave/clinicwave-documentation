@@ -6,14 +6,15 @@
 
 1. `User Management Service`
 2. `User Authentication Service`
-3. `Storage Service`
-4. `Admin Service`
-5. `Department Service`
-6. `Address Service`
-7. `Doctor Service`
-8. `Doctor Schedule Service`
-9. `Patient Service`
-10. `Appointment Service`
+3. `Document Service`
+4. `Notification Service`
+5. `Admin Service`
+6. `Department Service`
+7. `Address Service`
+8. `Doctor Service`
+9. `Doctor Schedule Service`
+10. `Patient Service`
+11. `Appointment Service`
 
 ### Ecosystem Services
 
