@@ -48,7 +48,7 @@ The `@EnableJpaAuditing(auditorAwareRef = "auditorAwareImpl")` annotation is add
 2. The `Role` entity extends the `Audit` class.
 3. Added the following properties:
     - `id` (primary key, auto-generated)
-    - `name` (unique, not nullable)
+    - `roleName` (unique, not nullable)
     - `permissionSet` (a set of `Permission` objects)
 4. Below is the issue of maintaining a one-to-many relationship between `Role` and `Permission` in a microservices' architecture.
 
@@ -58,7 +58,7 @@ The `@EnableJpaAuditing(auditorAwareRef = "auditorAwareImpl")` annotation is add
 2. The `Permission` entity extends the `Audit` class.
 3. Added the following properties:
    - `id` (primary key, auto-generated)
-   - `name` (unique, not nullable)
+   - `permissionName` (unique, not nullable)
 4. Used Lombok annotations to generate boilerplate code (getters, setters, constructors, etc.).
 5. Configured the entity name using `@Entity(name = "Permission")`.
 
