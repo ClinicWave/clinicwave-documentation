@@ -1,4 +1,4 @@
-# Detailed Notes: Spring Boot Full Stack Microservices Training - Session 12
+# ClinicWave Full Stack Microservices: Overview 12
 
 ## Domain Modeling
 
