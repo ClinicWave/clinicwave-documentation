@@ -15,6 +15,7 @@
   - `description`: Description of the document.
   - `path`: Path of the document (non-nullable).
   - `documentKey`: Document key or password (non-nullable).
+  - `userId`: User ID associated with the document (transient).
   - `documentStatus`: One-to-one relationship with `DocumentStatus` entity.
 - Designed the `DocumentStatus` entity with the following fields:
   - `id`: Unique identifier for the document status (auto-generated).
