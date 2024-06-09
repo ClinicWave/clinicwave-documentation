@@ -7,7 +7,7 @@
 
 ### Address Domain
 - The address domain was taken up in this session.
-- An `Address` entity was created with fields like address, country, city, state, province, postal code.
+- An `Address` entity was created with fields like addressLine, country, city, state, province, postal code.
 - A one-to-one relationship was established between `User` and `Address` entities, where each user will have only one postal address.
 
 ### User Type Entity
@@ -15,7 +15,7 @@
 - `UserType` will have a one-to-one relationship with the `User` entity.
 
 ### Document Entity and Document Type
-- The `Document` entity was introduced, which will have fields like document ID, document URL, and content (byte array).
+- The `Document` entity was introduced, which will have fields like id, user ID, title, description, path, and, documentKey.
 - Before implementing the `Document` entity, authentication entities were covered.
 
 ### Authentication Entities
