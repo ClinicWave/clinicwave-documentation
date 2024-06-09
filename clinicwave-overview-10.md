@@ -7,13 +7,13 @@
 - Represents permissions like `view` or `edit`.
 - Contains fields:
   - `id` (auto-generated primary key)
-  - `name` (e.g., "view", "edit")
+  - `permissionName` (e.g., "view", "edit")
 
 ### Role Entity
 - Represents roles like `admin` or `user`.
 - Contains fields:
   - `id` (auto-generated primary key)
-  - `name` (e.g., "admin", "user")
+  - `roleName` (e.g., "admin", "user")
 
 ### RolePermission Entity (Join Table)
 - A join table to map the many-to-many relationship between `Role` and `Permission`.
